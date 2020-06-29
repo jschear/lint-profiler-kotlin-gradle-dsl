@@ -1,6 +1,6 @@
 This is a sample android project, intended to demonstrate an incompatibility between the [Lint Performance Probe](https://github.com/google/android-lint-performance-probe) and the [Kotlin Gradle DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html).
 
-To reproduce the issues:
+To reproduce the issue:
 1. Follow the steps in the [Lint Performance Probe](https://github.com/google/android-lint-performance-probe)'s README.md to set up the profiler JAR.
 2. Run the suggested command:
 ```
