@@ -2,7 +2,7 @@ This is a sample android project, intended to demonstrate an incompatibility bet
 
 To reproduce the issue:
 1. Change the [Kotlin version used by the lint performance probe](https://github.com/google/android-lint-performance-probe/blob/dc8156c83ad5c368ba43b1f5bafc46016677b6ce/build.gradle#L20-L25) to 1.3.72: 
-1. Follow the steps in the [README.md]([Lint Performance Probe](https://github.com/google/android-lint-performance-probe)) to set up the profiler JAR.
+1. Follow the steps in the Lint Performance Probe's [README.md](https://github.com/google/android-lint-performance-probe) to set up the profiler.
 2. Run the suggested command:
 ```
 $ ./gradlew app:lintDebug --no-daemon -Dorg.gradle.jvmargs="-agentpath:..."
